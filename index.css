@@ -1,0 +1,11 @@
+p {
+  color: violet;
+  background-color: pink;
+}
+p::before {
+  content: "This text is entered by css ";
+}
+
+p::first-letter {
+  font-size: 48px;
+}
